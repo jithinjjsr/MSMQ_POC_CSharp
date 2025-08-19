@@ -5,8 +5,8 @@ class Receiver
 {
     static void Main()
     {
-        string queuePath = @".\Private$\MyTestQueue";
-
+        //string queuePath = @".\Private$\MyTestQueue";
+        string queuePath = @".\Private$\MySecondTestQueue";
         using (MessageQueue mq = new MessageQueue(queuePath))
         {
             mq.Formatter = new XmlMessageFormatter(new Type[] { typeof(string) });
