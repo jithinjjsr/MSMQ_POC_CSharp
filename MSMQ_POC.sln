@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsgReciever", "MsgReciever\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMsg", "MsgSender\SendMsg.csproj", "{E936718D-4FA8-434A-AA4C-EA5D039A7316}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsgForwarder", "MsgForwarder\MsgForwarder.csproj", "{C6397FE9-4ABA-4B69-B45E-ACE9060F3ACD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E936718D-4FA8-434A-AA4C-EA5D039A7316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E936718D-4FA8-434A-AA4C-EA5D039A7316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E936718D-4FA8-434A-AA4C-EA5D039A7316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6397FE9-4ABA-4B69-B45E-ACE9060F3ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6397FE9-4ABA-4B69-B45E-ACE9060F3ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6397FE9-4ABA-4B69-B45E-ACE9060F3ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6397FE9-4ABA-4B69-B45E-ACE9060F3ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
